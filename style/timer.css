@@ -1,0 +1,61 @@
+/*Ð¢Ð°Ð¹Ð¼ÐµÑ€*/
+/*
+.countbox:before {
+    content: 'Ð”Ð¾ ÐºÐ¾Ð½Ñ†Ð° Ð°ÐºÑ†Ð¸Ð¸ Ð¾ÑÑ‚Ð°Ð»Ð¾ÑÑŒ:';
+    display: block;
+    text-align: center;
+    font-size: 14px;
+    color:#fff;
+    font-weight: 700;
+    margin-bottom: 3px;
+    text-transform: uppercase;
+}
+*/
+.countbox {
+    height: 61px;
+    width: 100%;
+    padding-left: 190px;
+    margin: 0 auto;
+    position: relative;
+}
+.countbox > div:last-child {
+    margin: 0;    
+}
+.countbox > div:first-child {
+    margin-left: 0;
+}
+.countbox .countbox-num {
+    float: left;
+    width: 80px;
+    height: 60px;
+    background: rgb(194,194,194);
+    background: -moz-linear-gradient(top,  rgba(194,194,194,1) 0%, rgba(244,252,252,1) 31%, rgba(102,104,109,1) 100%);
+    background: -webkit-linear-gradient(top,  rgba(194,194,194,1) 0%,rgba(244,252,252,1) 31%,rgba(102,104,109,1) 100%);
+    background: linear-gradient(to bottom,  rgba(194,194,194,1) 0%,rgba(244,252,252,1) 31%,rgba(102,104,109,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c2c2c2', endColorstr='#66686d',GradientType=0 );
+    margin-right: 27px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+}
+.countbox-hours, .countbox-mins, .countbox-secs {
+    color: #111111;
+    font-size: 60px;
+    text-align: center;
+    font-family:'Akrobat ExtraBold';
+    font-weight: 800;
+    line-height: 56px;
+    margin-bottom: 3px;
+    position: relative;
+}
+.countbox-hours:after, .countbox-mins:after {
+    content: ':';
+    display: block;
+    font-size: 54px;
+    color:#acaeaf;
+    position: absolute;
+    top:-5px;
+    right: -19px;
+}
+.countbox-hours-text, .countbox-mins-text, .countbox-secs-text {
+    display: none;
+}

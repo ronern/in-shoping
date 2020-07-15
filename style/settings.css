@@ -1,0 +1,245 @@
+/*reset*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6,
+p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn,
+em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b,
+u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table,
+caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details,
+embed, figure, figcaption, footer, header, menu, nav, output, ruby, section,
+summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; outline: 0;}
+
+/* HTML5 display-role reset for older browsers */
+/* endzeit_____ */
+article, aside, details, figcaption, figure, footer, header, menu, nav, section, main {display: block;}
+
+ol, ul {list-style: none;}
+blockquote, q {quotes: none;}
+img{max-width: 100%; height: auto;}
+a{text-decoration: underline;}
+a:hover{cursor: pointer;}
+/* michael-k90 */
+*::-webkit-input-placeholder {color: #a9a9a9; opacity: 1;}
+*:-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*::-moz-placeholder {color: #a9a9a9; opacity: 1;}
+*:-ms-input-placeholder {color: #a9a9a9; opacity: 1;}
+*{margin: 0; padding: 0;}
+*{-webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box;}
+button,input,a{outline: none;}
+/* endzeit_____ */
+.m1-form input.field:focus::-webkit-input-placeholder {opacity:0;}
+.m1-form input.field:focus::-moz-placeholder          {opacity:0;}
+.m1-form input.field:focus:-moz-placeholder           {opacity:0;}
+.m1-form input.field:focus:-ms-input-placeholder      {opacity:0;}
+.m1-form input.field::-webkit-input-placeholder {color: #111111; opacity: 1;}
+.m1-form input.field:-moz-placeholder {color: #111111; opacity: 1;}
+.m1-form input.field::-moz-placeholder {color: #111111; opacity: 1;}
+.m1-form input.field:-ms-input-placeholder {color: #111111; opacity: 1;}
+.hidden{display: none;}
+.left{float: left;}
+.right{float: right;}
+.center{text-align: center;}
+.center-justified {
+    text-align: justify;
+    -moz-text-align-last: center;
+    text-align-last: center;
+}
+.clearfix:after, .ship li:after {content: '';display: block;clear: both;}
+.clear{clear: both;height: 0px;}
+@font-face {
+    font-family:'Akrobat SemiBold';
+    src: url('../font/Akrobatsemibold.woff2') format('woff2'),
+		url('../font/Akrobatsemibold.woff') format('woff'),
+		url('../font/Akrobatsemibold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+@font-face {
+    font-family:'Akrobat Bold';
+    src: url('../font/Akrobatbold.woff2') format('woff2'),
+		url('../font/Akrobatbold.woff') format('woff'),
+		url('../font/Akrobatbold.ttf') format('truetype');
+    font-weight: 700;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+@font-face {
+    font-family:'Akrobat ExtraBold';
+    src: url('../font/Akrobatextrabold.woff2') format('woff2'),
+		url('../font/Akrobatextrabold.woff') format('woff'),
+		url('../font/Akrobatextrabold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+    font-stretch: normal;
+    unicode-range: U+0020-0491;
+}
+
+html{
+    -ms-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-smoothing: subpixel-antialiased !important;
+}
+h1,h2,h3,h4,h5,h6{font-family:'Akrobat ExtraBold'; font-weight: 800; text-transform: uppercase;line-height: 1.125em;}
+b,strong{font-family:'Akrobat Bold';font-weight: 700;}
+body{
+    width: 100%;
+    min-width: 320px;
+    padding: 0px;
+    margin: 0px auto;
+    font-family:'Akrobat SemiBold';
+    font-weight: 600;
+    font-size: 20px;
+    line-height:1.200em;
+    color: #111111;
+    background: #fff;
+}
+section{
+    width: 100%;
+    max-width: 1920px;
+    margin: 0 auto;
+    padding: 40px 0 0;
+    position: relative;
+}
+.wrap{
+    width: 960px;
+    padding: 0px 10px;
+    margin: 0 auto;
+    height: 100%;
+    position: relative;
+}
+.wrap:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+.m1-form input.field{
+    position: relative;
+    display: inline-block;
+    outline: 0;
+    border: none;
+    border-radius: 32px;
+    -webkit-border-radius: 32px;
+    width: 297px;
+    height: 64px;
+    line-height: 64px;
+    margin: 0 10px 0 0;
+    padding: 0 20px;
+    background:#fff;
+    text-align: center;
+    font-size: 18px;
+    font-family:'Akrobat Bold';
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #111;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+    -webkit-box-shadow:inset 0 4px 3px 0 rgba(0,0,0,.3);
+box-shadow:inset 0 4px 3px 0 rgba(0,0,0,.3);
+}
+.m1-form input.field[name="name"] {
+    margin-right: 15px;
+}
+.button-m {
+    position: relative;
+    display: block;
+    width: 312px;
+    height: 100px;
+    line-height: 100px;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    color: #111111;
+    background: url(../img/button.png) no-repeat 0 0 / contain;
+    -webkit-transition: all 0.2s;
+    -moz-transition:    all 0.2s;
+    -o-transition:      all 0.2s;
+    -ms-transition:     all 0.2s;
+    transition:         all 0.2s;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+.button-m:hover{
+}
+.button-m:active{
+    top:-1px;
+}
+.m1-form .button-m{
+    display: inline-block;
+}
+h2.title{
+    margin: 0 0 30px 0;
+    text-align: center;
+    font-size: 48px;
+    letter-spacing: .48px;
+}
+.price {
+    position: relative;
+    width: 100%;
+    height: 94px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.old-cost {
+    width: 46%;
+    height: 100%;
+    float: left;
+    font-size: 60px;
+    text-decoration: line-through;
+    line-height: 44px;
+    padding-right: 65px;
+}
+.new-cost {
+    width: 50%;
+    height: 100%;
+    float: right;
+    font-size: 60px;
+    color:#ffc000;
+    font-family:'Akrobat ExtraBold';
+    font-weight: 800;
+    line-height: 85px;
+    padding-left: 65px;
+}
+.video-container{
+     position: relative;
+     width: 789px;
+     height: 421px;
+     margin: 0 auto;
+     overflow:hidden;
+     background:#000;
+     border:8px solid rgba(255,255,255,.2);
+     background-clip: padding-box;
+}
+ .video-container iframe, .video-container object, .video-container embed{
+    position:absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+}
+.youtube {
+    height: 100% !important;
+}
+@media screen and (max-width: 976px) {
+    .wrap{
+        width: 640px;
+    }
+}
+@media screen and (max-width: 659px) {
+    .wrap{
+        width: 320px;
+    }
+
+}
